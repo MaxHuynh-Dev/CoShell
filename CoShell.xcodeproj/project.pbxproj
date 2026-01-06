@@ -6,8 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C62C69802F0D0EE500805D64 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C62C697F2F0D0EE500805D64 /* README.md */; };
+		C62C69892F0D13A200805D64 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C62C69822F0D13A200805D64 /* Rubik-Black.ttf */; };
+		C62C698A2F0D13A200805D64 /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C62C69842F0D13A200805D64 /* Rubik-ExtraBold.ttf */; };
+		C62C698B2F0D13A200805D64 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C62C69872F0D13A200805D64 /* Rubik-Regular.ttf */; };
+		C62C698C2F0D13A200805D64 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C62C69852F0D13A200805D64 /* Rubik-Light.ttf */; };
+		C62C698D2F0D13A200805D64 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C62C69862F0D13A200805D64 /* Rubik-Medium.ttf */; };
+		C62C698E2F0D13A200805D64 /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C62C69882F0D13A200805D64 /* Rubik-SemiBold.ttf */; };
+		C62C698F2F0D13A200805D64 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C62C69832F0D13A200805D64 /* Rubik-Bold.ttf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C62C69632F0CCC1800805D64 /* CoShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62C697F2F0D0EE500805D64 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C62C69822F0D13A200805D64 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		C62C69832F0D13A200805D64 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		C62C69842F0D13A200805D64 /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C62C69852F0D13A200805D64 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		C62C69862F0D13A200805D64 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		C62C69872F0D13A200805D64 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		C62C69882F0D13A200805D64 /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +64,8 @@
 		C62C695A2F0CCC1800805D64 = {
 			isa = PBXGroup;
 			children = (
+				C62C69812F0D136200805D64 /* Fonts */,
+				C62C697F2F0D0EE500805D64 /* README.md */,
 				C62C69652F0CCC1800805D64 /* CoShell */,
 				C62C69642F0CCC1800805D64 /* Products */,
 			);
@@ -56,6 +77,20 @@
 				C62C69632F0CCC1800805D64 /* CoShell.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C62C69812F0D136200805D64 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C62C69822F0D13A200805D64 /* Rubik-Black.ttf */,
+				C62C69832F0D13A200805D64 /* Rubik-Bold.ttf */,
+				C62C69842F0D13A200805D64 /* Rubik-ExtraBold.ttf */,
+				C62C69852F0D13A200805D64 /* Rubik-Light.ttf */,
+				C62C69862F0D13A200805D64 /* Rubik-Medium.ttf */,
+				C62C69872F0D13A200805D64 /* Rubik-Regular.ttf */,
+				C62C69882F0D13A200805D64 /* Rubik-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +157,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C62C69802F0D0EE500805D64 /* README.md in Resources */,
+				C62C69892F0D13A200805D64 /* Rubik-Black.ttf in Resources */,
+				C62C698A2F0D13A200805D64 /* Rubik-ExtraBold.ttf in Resources */,
+				C62C698B2F0D13A200805D64 /* Rubik-Regular.ttf in Resources */,
+				C62C698C2F0D13A200805D64 /* Rubik-Light.ttf in Resources */,
+				C62C698D2F0D13A200805D64 /* Rubik-Medium.ttf in Resources */,
+				C62C698E2F0D13A200805D64 /* Rubik-SemiBold.ttf in Resources */,
+				C62C698F2F0D13A200805D64 /* Rubik-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

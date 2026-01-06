@@ -26,13 +26,13 @@ struct ContentView: View {
                         .padding(.bottom, 10)
                      
                     Text("Đạt")
-                        .font(.title)
+                        .font(.custom("Rubik-Regular", size: 20))
                         .bold()
                         .padding(.bottom, 10)
                 }
                 
                 Text("Front end developer")
-                    .font(.subheadline)
+                    .font(.custom("Rubik-Bold", size: 26))
                     .foregroundColor(.gray)
                 Button(action: {
                     print("Đã follow")
